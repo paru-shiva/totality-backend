@@ -1,0 +1,14 @@
+{
+  "name": "property-rental-platform-backend",
+  "version": "1.0.0",
+  "description": "backend of propery rental app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shivakumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
