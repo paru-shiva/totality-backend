@@ -13,6 +13,7 @@ const connection = await mysql.createConnection({
   user: "uy5bvzwclj463gnm",
   password: "FPKKauQCTP3mwKY6hFvL",
   database: "bujtuwkrt3getswhsi8t",
+  port: 3306,
 });
 
 try {
