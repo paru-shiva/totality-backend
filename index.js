@@ -9,11 +9,11 @@ app.use(cors());
 app.use(express.json());
 
 const connection = await mysql.createConnection({
-  host: "myawsdb.cpskmwc6eopp.eu-north-1.rds.amazonaws.com",
-  user: "admin",
+  host: "bujtuwkrt3getswhsi8t-mysql.services.clever-cloud.com",
+  user: "uy5bvzwclj463gnm",
+  password: "FPKKauQCTP3mwKY6hFvL",
   database: "bujtuwkrt3getswhsi8t",
-  password: "Mshi_245",
-  port: "3306",
+  port: 3306,
 });
 
 try {
