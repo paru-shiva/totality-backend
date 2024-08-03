@@ -9,20 +9,22 @@ app.use(cors());
 app.use(express.json());
 
 const connection = await mysql.createConnection({
-  host: "sql.freedb.tech",
+  /* host: "sql.freedb.tech",
   user: "freedb_parushiva",
   database: "freedb_myfreedbfortest",
-  password: "y@fNNr9eRDq3fy9" /*
+  password: "y@fNNr9eRDq3fy9" */
 
-  /*host: "bujtuwkrt3getswhsi8t-mysql.services.clever-cloud.com",
+  host: "bujtuwkrt3getswhsi8t-mysql.services.clever-cloud.com",
   user: "uy5bvzwclj463gnm",
   password: "FPKKauQCTP3mwKY6hFvL",
   database: "bujtuwkrt3getswhsi8t",
-  port: "3306" */ /*
+  port: "3306",
+
+  /*
   host: "myawsdb.cpskmwc6eopp.eu-north-1.rds.amazonaws.com",
   user: "admin",
   database: "bujtuwkrt3getswhsi8t",
-  password: "Mshi_245", */,
+  password: "Mshi_245", */
 });
 
 try {
